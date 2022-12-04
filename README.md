@@ -1,3 +1,3 @@
-# SQL
+# Data Analyst Project
 
-##This repository contains querying, visualizing and analyzing data collected from ourworldindata.org/covid-deaths until november 5-2022
+##This repository contains Project on Data Analyst
