@@ -194,7 +194,7 @@ INSERT INTO songs(id,name,length,album_id) VALUES (107,'Faster',4+(23/60),11);
 INSERT INTO songs(id,name,length,album_id) VALUES (108,'Fire and Ice',3+(57/60),11);
 INSERT INTO songs(id,name,length,album_id) VALUES (109,'Iron',5+(40/60),11);
 INSERT INTO songs(id,name,length,album_id) VALUES (110,'Where Is the Edge',3+(59/60),11);
-INSERT INTO songs(id,name,length,album_id) VALUES (111,'Sinéad',4+(23/60),11);
+INSERT INTO songs(id,name,length,album_id) VALUES (111,'SinÃ©ad',4+(23/60),11);
 INSERT INTO songs(id,name,length,album_id) VALUES (112,'Lost',5+(14/60),11);
 INSERT INTO songs(id,name,length,album_id) VALUES (113,'Murder',4+(16/60),11);
 INSERT INTO songs(id,name,length,album_id) VALUES (114,'A Demon''s Fate',5+(30/60),11);
@@ -234,7 +234,7 @@ INSERT INTO songs(id,name,length,album_id) VALUES (147,'Lack of Comprehension',3
 INSERT INTO songs(id,name,length,album_id) VALUES (148,'See Through Dreams',4+(39/60),15);
 INSERT INTO songs(id,name,length,album_id) VALUES (149,'Cosmic Sea',4+(27/60),15);
 INSERT INTO songs(id,name,length,album_id) VALUES (150,'Vacant Planets',3+(52/60),15);
-INSERT INTO songs(id,name,length,album_id) VALUES (151,'Stora Rövardansen',1+(33/60),16);
+INSERT INTO songs(id,name,length,album_id) VALUES (151,'Stora RÃ¶vardansen',1+(33/60),16);
 INSERT INTO songs(id,name,length,album_id) VALUES (152,'King',3+(44/60),16);
 INSERT INTO songs(id,name,length,album_id) VALUES (153,'The Mission',4+(18/60),16);
 INSERT INTO songs(id,name,length,album_id) VALUES (154,'Lifetime',4+(49/60),16);
@@ -364,7 +364,6 @@ GROUP BY albums.name, albums.release_year, songs.length
 ORDER BY Duration DESC;
 
 --GET THE NUMBER OF SONGS FOR EACH BAND
---note -- not complete
 
 SELECT bands.name AS Band, COUNT(songs.id) AS Number_of_Songs FROM bands
 JOIN albums ON bands.id = albums.band_id
