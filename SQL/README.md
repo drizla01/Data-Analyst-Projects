@@ -1,8 +1,6 @@
 0x0D. SQL - Introduction
 ========================
 
--   By Guillaume
-
 Concepts
 --------
 
