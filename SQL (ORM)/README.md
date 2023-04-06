@@ -1,8 +1,6 @@
 0x0F. Python - Object-relational mapper
 ========================================
 
--   By Guillaume
-
 Before you start...
 -----------------
 
