@@ -1006,8 +1006,3 @@ guillaume@ubuntu:~/0x0F$
 
 **No test cases needed**
 
-**Repo:**
-
--   GitHub repository: `alx-higher_level_programming`
--   Directory: `0x0F-python-object_relational_mapping`
--   File: `102-relationship_cities_states_list.py`
